@@ -102,10 +102,19 @@ class AlienInvasion:
     def _check_bullet_alien_collisions(self):            
         collisions = pygame.sprite.groupcollide(self.bullets, self.aliens,True,True)
 
+        if collisions:
+            for aliens in collisions.values():
+                self.stats.score += self.settings.alien_points * len(aliens)
+            self.sb.prep_score()
+            self.sb.check_high_score()
+
         if not self.aliens:
             self.bullets.empty()
             self._create_fleet()
             self.settings.increase_speed()
+
+            self.stats.level += 1
+            self.sb.prep_level()
 
     def _create_fleet(self):
         alien = Alien(self)
@@ -147,6 +156,7 @@ class AlienInvasion:
     def _ship_hit(self):
         if self.stats.ships_left > 0:
             self.stats.ships_left -= 1
+            self.sb.prep_ships()
             self.bullets.empty()
             self.aliens.empty()
 
@@ -170,6 +180,9 @@ class AlienInvasion:
         if button_clicked and not self.game_active:
             self.settings.initialize_dynamic_settings()
             self.stats.reset_stats()
+            self.sb.prep_score()
+            self.sb.prep_level()
+            self.sb.prep_ships()
             self.game_active = True
 
             self.bullets.empty()
