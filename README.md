@@ -33,10 +33,22 @@ Make sure you have **Python 3.x** installed. If not, download and install it fro
 ### 2️⃣ Install Pygame  
 The game uses **Pygame**, so you need to install it first. Open a terminal or command prompt and run:  
 
+```bash 
+pip install pygame
+```
+
 ### 3️⃣ Clone the Repository 
+If you have **Git installed**, you can clone this repository using:  
+```bash
+git clone https://github.com/anilveeraghattapu/alien-invasion-python.git
+cd alien-invasion
+```
 
 ### 4️⃣ Run the Game 
-
+Once inside the project folder, start the game by running:  
+```bash
+python main.py
+```
 
 ## 🏆 Credits  
 
