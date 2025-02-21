@@ -20,7 +20,6 @@ This project is based on the **"Alien Invasion"** game from the book *Python Cra
 ✅ **Win**: Keep shooting and surviving as long as possible!  
 ❌ **Lose**: If aliens reach the bottom or you lose all your lives, the game ends.  
 
----
 
 ## ⚙️ Installation & Setup  
 
@@ -49,31 +48,27 @@ Once inside the project folder, start the game by running:
 ```bash
 python main.py
 
-## 🏆 Credits  
-- **Game Concept & Original Code**: *Eric Matthes* - *Python Crash Course*  
-- **Modifications & Enhancements**: *Your Name*  
-- **Pygame Library**: [Pygame Docs](https://www.pygame.org/docs/)  
 
 
-## 📸 Screenshots  
-Here’s a preview of the game in action:  
+## 🏆 Credits
+Game Concept & Original Code: Eric Matthes - Python Crash Course
+Modifications & Enhancements: Anil Veeraghattapu
+Pygame Library: Pygame Docs
+📸 Screenshots
+Here’s a preview of the game in action:
 
-![Game Screenshot](images/alieninvasion.png)  
 
-## 🤝 Contributing  
-Want to improve the game? Feel free to **fork** this repository, make your changes, and submit a **pull request**.  
-Contributions, bug reports, and feature suggestions are always welcome!  
 
----
+## 🤝 Contributing
+Want to improve the game? Feel free to fork this repository, make your changes, and submit a pull request.
+Contributions, bug reports, and feature suggestions are always welcome!
 
-## 📜 License  
-This project is for **learning purposes** based on *Python Crash Course* by **Eric Matthes**.  
-You are free to modify and use it for personal projects, but please give credit to the original author.  
+## 📜 License
+This project is for learning purposes based on Python Crash Course by Eric Matthes.
+You are free to modify and use it for personal projects, but please give credit to the original author.
 
----
-
-## 📬 Contact  
-👤 **Anil Veeraghattapu**  
-📧 anilveeraghattapu@gmail.com  
-🔗 [GitHub](https://github.com/anilveeraghattapu) | [LinkedIn](https://www.linkedin.com/in/anilveeraghattapu/)  
+## 📬 Contact
+👤 Anil Veeraghattapu
+📧 anilveeraghattapu@gmail.com
+🔗  [GitHub](https://github.com/anilveeraghattapu) | [LinkedIn](https://www.linkedin.com/in/anilveeraghattapu/)  
 
